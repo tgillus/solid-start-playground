@@ -1,14 +1,4 @@
 {
-  "name": "example-with-vitest",
-  "scripts": {
-    "dev": "vinxi dev",
-    "build": "vinxi build",
-    "start": "vinxi start",
-    "test": "vitest run",
-    "test-watch": "vitest",
-    "test-ui": "vitest --ui"
-  },
-  "type": "module",
   "devDependencies": {
     "@solidjs/meta": "0.29.4",
     "@solidjs/router": "0.13.3",
@@ -24,5 +14,18 @@
     "vite": "5.2.11",
     "vite-plugin-solid": "2.10.2",
     "vitest": "1.6.0"
+  },
+  "name": "example-with-vitest",
+  "type": "module",
+  "scripts": {
+    "build": "vinxi build",
+    "dev": "vinxi dev",
+    "format": "biome format --write --no-errors-on-unmatched .",
+    "lint": "biome lint --no-errors-on-unmatched .",
+    "lint:fix": "biome lint --apply --no-errors-on-unmatched .",
+    "start": "vinxi start",
+    "test": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:watch": "vitest"
   }
 }
