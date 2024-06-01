@@ -16,7 +16,6 @@
     "vitest": "1.6.0"
   },
   "name": "example-with-vitest",
-  "type": "module",
   "scripts": {
     "build": "vinxi build",
     "dev": "vinxi dev",
@@ -27,5 +26,6 @@
     "test": "vitest run",
     "test:ui": "vitest --ui",
     "test:watch": "vitest"
-  }
+  },
+  "type": "module"
 }
