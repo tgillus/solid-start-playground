@@ -1,19 +1,19 @@
 {
   "devDependencies": {
     "@solidjs/meta": "0.29.4",
-    "@solidjs/router": "0.13.6",
-    "@solidjs/start": "1.0.2",
-    "@solidjs/testing-library": "0.8.8",
-    "@testing-library/jest-dom": "6.4.6",
+    "@solidjs/router": "0.14.3",
+    "@solidjs/start": "1.0.6",
+    "@solidjs/testing-library": "0.8.9",
+    "@testing-library/jest-dom": "6.4.8",
     "@testing-library/user-event": "14.5.2",
-    "@vitest/ui": "1.6.0",
-    "jsdom": "24.1.0",
-    "solid-js": "1.8.17",
-    "typescript": "5.5.2",
-    "vinxi": "0.3.12",
-    "vite": "5.3.1",
+    "@vitest/ui": "2.0.5",
+    "jsdom": "24.1.1",
+    "solid-js": "1.8.21",
+    "typescript": "5.5.4",
+    "vinxi": "0.4.1",
+    "vite": "5.4.1",
     "vite-plugin-solid": "2.10.2",
-    "vitest": "1.6.0"
+    "vitest": "2.0.5"
   },
   "name": "example-with-vitest",
   "scripts": {
