@@ -41,11 +41,11 @@ export default function UsersList() {
 
   return (
     <>
-      <div class="flex">
+      <div class="flex mb-5">
         <select
           value={sortBy()}
           onChange={(e) => setSortBy(e.target.value as SortBy)}
-          class="flex-initial w-48 p-2 mr-5 rounded-lg bg-neutral-900"
+          class="flex-initial w-48 p-2 mr-5 rounded-xl bg-neutral-800 border border-neutral-700"
         >
           <option value="lastName">Last Name</option>
           <option value="firstName">First Name</option>
@@ -54,7 +54,7 @@ export default function UsersList() {
         <select
           value={order()}
           onChange={(e) => setSortDirection(e.target.value as Order)}
-          class="flex-initial w-48 p-2 rounded-lg bg-neutral-900"
+          class="flex-initial w-48 p-2 rounded-xl bg-neutral-800 border border-neutral-700"
         >
           <option value="asc">Ascending</option>
           <option value="desc">Descending</option>
@@ -64,10 +64,10 @@ export default function UsersList() {
       <br />
 
       <Suspense>
-        <ul>
+        <ul class="ml-10">
           <For each={usersResponse()?.users}>
             {(user) => (
-              <li>
+              <li class="mb-2">
                 {user.lastName}, {user.firstName}
               </li>
             )}

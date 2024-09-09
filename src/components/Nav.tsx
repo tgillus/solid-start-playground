@@ -6,11 +6,12 @@ export default function Nav() {
     path === location.pathname
       ? "border-blue-400"
       : "border-transparent hover:border-blue-400";
+
   return (
-    <nav class="bg-blue-700">
-      <ul class="container flex items-center p-3 text-gray-200">
+    <nav>
+      <ul class="container flex justify-center items-center p-3 text-gray-100">
         <li class={`border-b-2 ${active("/")} mx-1.5 sm:mx-6`}>
-          <a href="/">Home</a>
+          <a href="/">Users</a>
         </li>
         <li class={`border-b-2 ${active("/about")} mx-1.5 sm:mx-6`}>
           <a href="/about">About</a>

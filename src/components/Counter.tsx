@@ -6,7 +6,7 @@ export default function Counter() {
   return (
     <button
       type="button"
-      class="w-[200px] rounded-full bg-cyan-600 text-neutral-900 px-[2rem] py-[1rem]"
+      class="w-[200px] rounded-full bg-blue-300 text-neutral-900 font-semibold hover:bg-blue-200 px-[2rem] py-[1rem] m-24"
       onClick={() => setCount(count() + 1)}
     >
       Clicks: {count()}
